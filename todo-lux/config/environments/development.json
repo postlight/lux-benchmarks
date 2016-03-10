@@ -1,4 +1,4 @@
 {
-  "sessionKey": "todo-lux::session",
+  "sessionKey": "todo-lux::development::session",
   "sessionSecret": "d6c700ace1dec11a88323a8600aa4696342b767f4d40867a96cc1d027fe5d7a6"
 }
