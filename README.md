@@ -24,23 +24,10 @@ to submit an issue or fork this repo and submit a PR.
 I have gotten the following results after running this benchmark 3 times and taking
 the average Requests/sec and Transfer/sec per each framework.
 
-```
-Rails:
-Requests/sec:     68.17
-Transfer/sec:    536.55KB
-
-Sails:
-Requests/sec:    174.96
-Transfer/sec:      1.15MB
-
-Loopback:
-Requests/sec:    763.82
-Transfer/sec:      1.67MB
-
-Lux:
-Requests/sec:    862.57
-Transfer/sec:      7.59MB
-```
+Rails | Sails | Loopback | Lux
+------|-------|----------|----
+68.17 Requests/sec | 174.96 Requests/sec | 763.82 Requests/sec | 862.57 Requests/sec
+536.55KB Transfer/sec | 1.15MB Transfer/sec | 1.67MB Transfer/sec | 7.59MB Transfer/sec
 
 **Hardware:**
 
