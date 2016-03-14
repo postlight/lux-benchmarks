@@ -8,10 +8,22 @@
 module.exports = {
   connection: 'mysql',
 
+  tableName: 'task_list',
+
   attributes: {
     name: {
       type: 'text',
       defaultsTo: 'To Do'
+    },
+
+    createdAt: {
+      type: 'datetime',
+      columnName: 'created_at'
+    },
+
+    updatedAt: {
+      type: 'datetime',
+      columnName: 'updated_at'
     },
 
     tasks: {

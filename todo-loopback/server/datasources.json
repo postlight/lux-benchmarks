@@ -6,7 +6,7 @@
   "mysql": {
     "host": "127.0.0.1",
     "port": 3306,
-    "database": "todo_loopback_dev",
+    "database": "lux_benchmarks",
     "password": "root",
     "name": "mysql",
     "user": "root",

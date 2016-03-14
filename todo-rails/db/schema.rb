@@ -13,13 +13,13 @@
 
 ActiveRecord::Schema.define(version: 20160310144018) do
 
-  create_table "task_lists", force: :cascade do |t|
+  create_table "task_list", force: :cascade do |t|
     t.string   "name",       limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
   end
 
-  create_table "tasks", force: :cascade do |t|
+  create_table "task", force: :cascade do |t|
     t.string   "name",       limit: 255, default: "New Task", null: false
     t.boolean  "completed",              default: false,      null: false
     t.datetime "due_date"
@@ -28,6 +28,6 @@ ActiveRecord::Schema.define(version: 20160310144018) do
     t.datetime "updated_at",                                  null: false
   end
 
-  add_index "tasks", ["list_id"], name: "index_tasks_on_list_id", using: :btree
+  add_index "task", ["list_id"], name: "index_task_on_list_id", using: :btree
 
 end

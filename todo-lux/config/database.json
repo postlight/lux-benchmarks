@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "root",
-    "database": "todo_lux_dev",
+    "database": "lux_benchmarks",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "logging": false
@@ -10,7 +10,7 @@
   "test": {
     "username": "root",
     "password": "root",
-    "database": "todo_lux_test",
+    "database": "lux_benchmarks",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "logging": false
@@ -18,7 +18,7 @@
   "production": {
     "username": "root",
     "password": "root",
-    "database": "todo_lux_prod",
+    "database": "lux_benchmarks",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "logging": false

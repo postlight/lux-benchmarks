@@ -20,11 +20,23 @@ module.exports = {
     },
 
     dueDate: {
-      type: 'datetime'
+      type: 'datetime',
+      columnName: 'due_date'
+    },
+
+    createdAt: {
+      type: 'datetime',
+      columnName: 'created_at'
+    },
+
+    updatedAt: {
+      type: 'datetime',
+      columnName: 'updated_at'
     },
 
     list: {
-      model: 'taskList'
+      model: 'taskList',
+      columnName: 'list_id'
     }
   }
 };

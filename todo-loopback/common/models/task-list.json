@@ -3,7 +3,11 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
+    "validateUpsert": true,
+    "mysql": {
+      "schema": "lux_benchmarks",
+      "table": "task_list"
+    }
   },
   "properties": {
     "name": {
