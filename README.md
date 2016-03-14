@@ -8,7 +8,7 @@ In other words, no performance optimizations have been made to any of these
 applications.
 
 This benchmark is measured on a simple test of returning the first 25 records of
-an API resource and it's relationship. Respectively `Task` and `TaskList`.
+an API resource and its relationship. Respectively `Task` and `TaskList`.
 
 **Note:**
 
