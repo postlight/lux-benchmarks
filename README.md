@@ -25,9 +25,9 @@ I have gotten the following results after running this benchmark 3 times and tak
 the average Requests/sec and Transfer/sec per each framework.
 
 
-Framework     | Requests Per Second | Transfer Per Second 
+Framework     | Requests Per Second | Transfer Per Second
 ------------- | ------------------- | -------------------
-**[Lux][]**   | 862.57 :star:       | 7.59MB :star:
+**[Lux][]**   | 902.12 :star:       | 7.94MB :star:
 [Loopback][]  | 763.82              | 1.67MB
 [Sails][]     | 174.96              | 1.15MB
 [Rails][]     | 68.17               | 536.55KB
