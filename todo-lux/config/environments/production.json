@@ -1,0 +1,5 @@
+{
+  "domain": "http://localhost:4000",
+  "sessionKey": "todo-lux::session",
+  "sessionSecret": "298e64535028122e0682f5d82b882ab6ffcf8aee08ef9ef22f5a832b3559b219"
+}

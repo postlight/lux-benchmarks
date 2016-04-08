@@ -1,0 +1,28 @@
+{
+  "name": "TaskList",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "schema": "lux_benchmarks",
+      "table": "task_list"
+    }
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tasks": {
+      "type": "hasMany",
+      "model": "Task",
+      "foreignKey": "list_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

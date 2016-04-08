@@ -1,0 +1,31 @@
+{
+  "name": "Task",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "completed": {
+      "type": "boolean",
+      "required": true
+    },
+    "due_date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "list": {
+      "type": "belongsTo",
+      "model": "TaskList",
+      "foreignKey": "list_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

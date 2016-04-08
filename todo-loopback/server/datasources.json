@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "lux_benchmarks",
+    "password": "root",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
